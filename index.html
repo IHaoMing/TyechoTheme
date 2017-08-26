@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>芒果浩明</title>
+
+    <link href="img/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="css/icon.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/markdown.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sfont_m7mp27xfc0jp2e29.css">
+        <!--[if lt IE 9]>
+    <script src="//cdnjscn.b0.upaiyun.com/libs/html5shiv/r29/html5.min.js"></script>
+    <script src="//cdnjscn.b0.upaiyun.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <meta name="description" content="2016.11.28更新修复bug添加pjax支持2016.05.14更新页面重制脚本重制部分功能整合到配套插件中暂时去掉了七牛CDN下载:JianShu先安装插件再安装主题，若已安装旧版本，请...">
+    <meta name="keywords" content="响应式,typecho,简书,主题">
+
+    
+    <style type="text/css">
+			/* Code tidied up by ScrapBook */
+			#te-cmt-tool { display: none; list-style: outside none none; padding: 0px; margin: 10px 0px; }
+			#te-cmt-cmd { padding: 0px; margin: 0px; overflow: hidden; list-style: outside none none; border: 1px solid rgb(150, 150, 150); border-radius: 3px; }
+			#te-cmt-cmd li { padding: 0px; margin: 0px; float: left; border: medium none; }
+			#te-cmt-cmd li a { height: 32px; line-height: 32px; padding: 0px 10px; display: block; }
+			.te-cmt-smilies { display: none; padding: 8px 5px 5px; margin-top: -3px; border-width: medium 1px 1px; border-style: none solid solid; border-color: currentcolor rgb(150, 150, 150) rgb(150, 150, 150); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-radius: 0px 0px 3px 3px; }
+			.te-cmt-smilies span { cursor: pointer; }
+			.te-cmt-smilies span img { vertical-align: middle; }
+			.te-cmt-ban { height: 20px; line-height: 20px; }
+			.te-cmt-ban input[type="checkbox"] { margin: 0px; padding: 0px; vertical-align: middle; }
+    </style>
+	<script src="hm.js"></script>
+	<script src="hm.js"></script>
+	<script src="hm.js"></script>
+	<script src="js/share.js"></script>
+	<script src="js/share.js"></script>
+</head>
+<body>
+<div id="wrapper" class="">
+    <header id="header" style="top: 0px;">
+		<a class="site-name" href="#" title="芒果浩明的个人博客">明</a>
+        <nav class="nav">
+            <a href="#" title="首页"><i class="icon icon-home"></i> <span>首页</span></a>
+            <a href="#" title="归档"><i class="icon icon-archive"></i> <span>归档</span></a>
+            <a href="#" title="标签"><i class="icon icon-tag"></i> <span>标签</span></a>
+            <a href="#" title="链接"><i class="icon icon-link"></i> <span>链接</span></a>
+            <a href="#" title="留言"><i class="icon icon-comment"></i> <span>留言</span></a>
+            <a href="#" title="关于"><i class="icon icon-info"></i> <span>关于</span></a>        
+        </nav>
+    </header>
+    <div id="cover" style="background-image: url(&quot;img/bg.jpg&quot;);">
+		<div class="cover-info">
+            <img src="img/avatar.jpg" alt="芒果浩明" class="avatar">
+            			<h1>芒果浩明</h1>
+			<p>芒果浩明的个人博客</p>
+			<div class="follow-me">
+			   <a href="https://github.com/IHaoMing" class="icon icon-github" target="_blank"></a>
+		    </div>
+		</div>
+	</div>
+    <div id="body">
+        <div class="body-header" style="top: 0px;">
+			<a href="#" class="btn btn-default btn-nav-size pull-left hidden-xs"><i class="icon icon-outdent"></i></a>
+			<a href="#" class="btn btn-default btn-screen-size pull-left hidden-xs"><i class="icon icon-compress"></i></a>
+			<div class="site-search pull-left">
+                <form id="search" class="form" method="post" action="https://lixianhua.com/" role="search">
+                    <label for="s" class="sr-only">搜索关键字</label>
+                    <input name="s" class="form-control" placeholder="搜索" type="text">
+                    <button type="submit" class="btn btn-default" title="搜索"><i class="icon icon-search"></i></button>
+                </form>
+            </div>
+							<a href="#" class="btn btn-default pull-right" title="登录">登录<i class="icon icon-login"></i></a>
+			            <a href="#" class="btn btn-default btn-mode pull-right"><i class="icon icon-moon"></i></a>
+        </div>
+        <div id="main">			<div id="banner" class="carousel slide" data-ride="carousel" data-interval="5000" data-multi="true">
+
+			<div class="carousel-inner" role="listbox">
+					<div class="item active">
+				<a class="banner-item" href="https://lixianhua.com/clone_jianshu_theme.html" style="background-image: url(&quot;img/3257680062.png&quot;);" title="仿简书响应式Typecho博客主题 (2016.11.28更新)"></a>			</div>
+					<div class="item ">
+				<a class="banner-item" href="https://lixianhua.com/jiang_theme_for_typecho.html" style="background-image: url(&quot;img/1734465354.png&quot;);" title="Typecho单栏主题：jiang"></a>			</div>
+					<div class="item ">
+				<a class="banner-item" href="https://lixianhua.com/widget_theme_for_typecho.html" style="background-image: url(&quot;img/2765353395.png&quot;);" title="付费Typecho主题：Widget "></a>			</div>
+					<div class="item ">
+				<a class="banner-item" href="https://lixianhua.com/typecho_forum.html" style="background-image: url(&quot;img/347161166.png&quot;);" title="基于Typecho的社区:Typecho Forum"></a>			</div>
+					<div class="item ">
+				<a class="banner-item" href="https://lixianhua.com/book_theme_for_typecho.html" style="background-image: url(&quot;img/1345370804.jpg&quot;);" title="简洁单栏主题Book(2015.10.03更新)"></a>			</div>
+			</div>
+		<a class="left carousel-control" href="#banner" role="button" data-slide="prev">
+			<span class="icon icon-prev" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#banner" role="button" data-slide="next">
+			<span class="icon icon-next" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	<div class="post-list">
+		<article class="post">
+
+				<a class="post-cover pull-right lazy" data-original="https://okzg588xk.qnssl.com/2017/08/3035073355.png?imageView2/3/w/200/h/140" title="TeMenu插件使用文档" style="display: block; background-image: url(&quot;img/3035073355.png&quot;);"></a>				
+		    <div class="post-wrap">
+			 <div class="post-author">
+				<a href="https://lixianhua.com/author/1/" class="avatar"><img src="img/tx.jpeg" alt=""></a>
+				<a class="author-name" href="https://lixianhua.com/author/1/">芒果浩明</a>
+				<span datetime="2017-08-24T18:33:00+00:00" itemprop="datePublished">昨天 18:33</span>
+			</div>
+			<a class="post-title" href="https://lixianhua.com/temenu_document.html">TeMenu插件使用文档</a>
+			<div class="post-abstract">
+				1、安装插件下载插件后，确认插件文件夹名称为TeMenu,上传插件文件夹TeMenu至网站目录usr/plugins/进入后台，在导航 控制台 &gt; 插件 页面，选择启用TeMenu插件插件启用成功后，将在导航 管理 中增加二级导航 菜			</div>
+			<ul class="post-meta">
+				<li class="cat"><a href="https://lixianhua.com/category/doc/">文档</a></li>
+				<li><a href="https://lixianhua.com/temenu_document.html"><i class="icon icon-eye"></i> 2</a></li>
+				<li><a href="https://lixianhua.com/temenu_document.html#comments"><i class="icon icon-comment"></i> 0</a></li>
+				<li><i class="icon icon-like"></i> 0</li>
+				<li></li>
+			</ul>
+		</div>
+	</article>
+		<article class="post">
+				<a class="post-cover pull-right lazy" data-original="https://okzg588xk.qnssl.com/2015/07/3257680062.png?imageView2/3/w/200/h/140" title="仿简书响应式Typecho博客主题 (2016.11.28更新)" style="display: block; background-image: url(&quot;3257680062_001.png&quot;);"></a>				<div class="post-wrap">
+			<div class="post-author">
+				<a href="https://lixianhua.com/author/1/" class="avatar"><img src="img/tx.jpeg" alt=""></a>
+				<a class="author-name" href="https://lixianhua.com/author/1/">芒果浩明</a>
+				<span datetime="2016-05-14T23:59:00+00:00" itemprop="datePublished">2016年05月14日</span>
+			</div>
+			<a class="post-title" href="https://lixianhua.com/clone_jianshu_theme.html">仿简书响应式Typecho博客主题 (2016.11.28更新)</a>
+			<div class="post-abstract">
+				2016.11.28更新修复bug添加pjax支持2016.05.14更新页面重制脚本重制部分功能整合到配套插件中暂时去掉了七牛CDN下载:JianShu先安装插件再安装主题，若已安装旧版本，请先卸载主题再进行安装（不需要另外再安装统计插件			</div>
+			<ul class="post-meta">
+				<li class="cat"><a href="https://lixianhua.com/category/project/">项目</a></li>
+				<li><a href="https://lixianhua.com/clone_jianshu_theme.html"><i class="icon icon-eye"></i> 70335</a></li>
+				<li><a href="https://lixianhua.com/clone_jianshu_theme.html#comments"><i class="icon icon-comment"></i> 256</a></li>
+				<li><i class="icon icon-like"></i> 275</li>
+				<li></li>
+			</ul>
+		</div>
+	</article>
+		<article class="post">
+				<a class="post-cover pull-right lazy" data-original="https://okzg588xk.qnssl.com/2015/12/1734465354.png?imageView2/3/w/200/h/140" title="Typecho单栏主题：jiang"></a>				<div class="post-wrap">
+			<div class="post-author">
+				<a href="https://lixianhua.com/author/1/" class="avatar"><img src="img/tx.jpeg" alt=""></a>
+				<a class="author-name" href="https://lixianhua.com/author/1/">芒果浩明</a>
+				<span datetime="2015-12-25T14:37:00+00:00" itemprop="datePublished">2015年12月25日</span>
+			</div>
+			<a class="post-title" href="https://lixianhua.com/jiang_theme_for_typecho.html">Typecho单栏主题：jiang</a>
+			<div class="post-abstract">
+				最近看到的国外的一款wordpress主题，觉得很不错，就把他博客部分给扒了下来，做成了typecho的一个单栏的博客主题主题固定六个导航，其中首页、关于不可更改主题内置归档、标签页面，可直接设置为页面模版使用主题自动提取文章第一张图片为文			</div>
+			<ul class="post-meta">
+				<li class="cat"><a href="https://lixianhua.com/category/project/">项目</a></li>
+				<li><a href="https://lixianhua.com/jiang_theme_for_typecho.html"><i class="icon icon-eye"></i> 10754</a></li>
+				<li><a href="https://lixianhua.com/jiang_theme_for_typecho.html#comments"><i class="icon icon-comment"></i> 21</a></li>
+				<li><i class="icon icon-like"></i> 102</li>
+				<li></li>
+			</ul>
+		</div>
+	</article>
+		<article class="post">
+								<div class="post-wrap">
+			<div class="post-author">
+				<a href="https://lixianhua.com/author/1/" class="avatar"><img src="img/tx.jpeg" alt=""></a>
+				<a class="author-name" href="https://lixianhua.com/author/1/">芒果浩明</a>
+				<span datetime="2015-11-17T09:48:00+00:00" itemprop="datePublished">2015年11月17日</span>
+			</div>
+			<a class="post-title" href="https://lixianhua.com/teconnect_plugin_for_typecho.html">TeConnect:Typecho社会化登录插件</a>
+			<div class="post-abstract">
+				之前在弄GGZOO时，就做了一个互联的插件，但是并没有发布出来（发现并没有什么卵用……）把代码整理了下,就发布出来了，有Bug的话，请到这里留言反馈……安装步骤解压插件后放在Plugins目录下，把TeConnect插件目录下的callba			</div>
+			<ul class="post-meta">
+				<li class="cat"><a href="https://lixianhua.com/category/code/">芒果浩明</a></li>
+				<li><a href="https://lixianhua.com/teconnect_plugin_for_typecho.html"><i class="icon icon-eye"></i> 7925</a></li>
+				<li><a href="https://lixianhua.com/teconnect_plugin_for_typecho.html#comments"><i class="icon icon-comment"></i> 20</a></li>
+				<li><i class="icon icon-like"></i> 52</li>
+				<li></li>
+			</ul>
+		</div>
+	</article>
+		<article class="post">
+								<div class="post-wrap">
+			<div class="post-author">
+				<a href="https://lixianhua.com/author/1/" class="avatar"><img src="img/tx.jpeg" alt=""></a>
+				<a class="author-name" href="https://lixianhua.com/author/1/">芒果浩明</a>
+				<span datetime="2015-11-04T10:34:00+00:00" itemprop="datePublished">2015年11月04日</span>
+			</div>
+			<a class="post-title" href="https://lixianhua.com/tecomment_plugin_for_typecho.html">Typecho评论增强插件：TeComment</a>
+			<div class="post-abstract">
+				前段时间，有朋友在博客留言，提及评论时怎么贴图。  刚好自己闲逛时发现张戈博客评论框下面的工具栏，或许可以用用。但是其博客程序为wordpress，不能使用，那就自己动手写吧先看效果图：js效果部分参考了张戈博客中的代码工具栏中，表情的功能			</div>
+			<ul class="post-meta">
+				<li class="cat"><a href="https://lixianhua.com/category/code/">代码</a></li>
+				<li><a href="https://lixianhua.com/tecomment_plugin_for_typecho.html"><i class="icon icon-eye"></i> 12340</a></li>
+				<li><a href="https://lixianhua.com/tecomment_plugin_for_typecho.html#comments"><i class="icon icon-comment"></i> 41</a></li>
+				<li><i class="icon icon-like"></i> 62</li>
+				<li></li>
+			</ul>
+		</div>
+	</article>
+		<article class="post">
+				<a class="post-cover pull-right lazy" data-original="https://okzg588xk.qnssl.com/2015/11/2572963750.png?imageView2/3/w/200/h/140" title="Widget主题配套插件：TeMenu"></a>				<div class="post-wrap">
+			<div class="post-author">
+				<a href="https://lixianhua.com/author/1/" class="avatar"><img src="img/tx.jpeg" alt=""></a>
+				<a class="author-name" href="https://lixianhua.com/author/1/">芒果浩明</a>
+				<span datetime="2015-11-03T15:12:00+00:00" itemprop="datePublished">2015年11月03日</span>
+			</div>
+			<a class="post-title" href="https://lixianhua.com/temenu_plugin_for_typecho.html">Widget主题配套插件：TeMenu</a>
+			<div class="post-abstract">
+				使用了一段时间的typecho，发现没有像wordpress中的那样的菜单，真是个麻烦的事情，刚好折腾的一个主题也需要，所以就着手弄了个插件参考wordpress菜单，支持把分类、单页作为菜单，也能够自定义链接。使用方法启用插件后，打开管理			</div>
+			<ul class="post-meta">
+				<li class="cat"><a href="https://lixianhua.com/category/code/">代码</a></li>
+				<li><a href="https://lixianhua.com/temenu_plugin_for_typecho.html"><i class="icon icon-eye"></i> 5408</a></li>
+				<li><a href="https://lixianhua.com/temenu_plugin_for_typecho.html#comments"><i class="icon icon-comment"></i> 7</a></li>
+				<li><i class="icon icon-like"></i> 33</li>
+				<li></li>
+			</ul>
+		</div>
+	</article>
+		<article class="post">
+				<a class="post-cover pull-right lazy" data-original="https://okzg588xk.qnssl.com/2015/11/2765353395.png?imageView2/3/w/200/h/140" title="付费Typecho主题：Widget "></a>				<div class="post-wrap">
+			<div class="post-author">
+				<a href="https://lixianhua.com/author/1/" class="avatar"><img src="img/tx.jpeg" alt=""></a>
+				<a class="author-name" href="https://lixianhua.com/author/1/">芒果浩明</a>
+				<span datetime="2015-10-23T18:09:00+00:00" itemprop="datePublished">2015年10月23日</span>
+			</div>
+			<a class="post-title" href="https://lixianhua.com/widget_theme_for_typecho.html">付费Typecho主题：Widget </a>
+			<div class="post-abstract">
+				新款主题Widget，结构、外观、布局基本是参考了Wordpress的主题Begin,样式代码从头编写使用了扁平化风格，响应式的设计，未使用前端框架。主题兼容性暂未测试……通过配套插件实现了：文章缩略图幻灯片展示内容推荐随机文章最新文章热门			</div>
+			<ul class="post-meta">
+				<li class="cat"><a href="https://lixianhua.com/category/project/">芒果浩明</a></li>
+				<li><a href="https://lixianhua.com/widget_theme_for_typecho.html"><i class="icon icon-eye"></i> 7029</a></li>
+				<li><a href="https://lixianhua.com/widget_theme_for_typecho.html#comments"><i class="icon icon-comment"></i> 7</a></li>
+				<li><i class="icon icon-like"></i> 36</li>
+				<li></li>
+			</ul>
+		</div>
+	</article>
+		<article class="post">
+								<div class="post-wrap">
+			<div class="post-author">
+				<a href="https://lixianhua.com/author/1/" class="avatar"><img src="img/tx.jpeg" alt=""></a>
+				<a class="author-name" href="https://lixianhua.com/author/1/">芒果浩明</a>
+				<span datetime="2015-10-23T17:34:00+00:00" itemprop="datePublished">2015年10月23日</span>
+			</div>
+			<a class="post-title" href="https://lixianhua.com/typecho_forum_3.html">基于Typecho的社区系统3</a>
+			<div class="post-abstract">
+				社区系统的功能页面通过路由功能都实现了，但是页面上的表单、表单处理方法却还没有解决继续看Typecho源码，会发现默认的表单操作都是使用action路由的，而action路由对应的组件为Widget_Do，查看Widget_Do文件中的路由			</div>
+			<ul class="post-meta">
+				<li class="cat"><a href="https://lixianhua.com/category/code/">芒果浩明</a></li>
+				<li><a href="https://lixianhua.com/typecho_forum_3.html"><i class="icon icon-eye"></i> 5355</a></li>
+				<li><a href="https://lixianhua.com/typecho_forum_3.html#comments"><i class="icon icon-comment"></i> 5</a></li>
+				<li><i class="icon icon-like"></i> 36</li>
+				<li></li>
+			</ul>
+		</div>
+	</article>
+		<article class="post">
+								<div class="post-wrap">
+			<div class="post-author">
+				<a href="https://lixianhua.com/author/1/" class="avatar"><img src="img/tx.jpeg" alt=""></a>
+				<a class="author-name" href="https://lixianhua.com/author/1/">芒果浩明</a>
+				<span datetime="2015-10-15T17:23:00+00:00" itemprop="datePublished">2015年10月15日</span>
+			</div>
+			<a class="post-title" href="https://lixianhua.com/typecho_forum_2.html">基于Typecho的社区系统2</a>
+			<div class="post-abstract">
+				功能与数据都折腾清楚了，就想着开始具体实现了首先要做的就是需要能够修改系统的路由。这个并没有费很大力气，直接百度搜到了一款路由编辑插件RoutesHelper，做了一点修改，然后就正式开动吧！！！路由到组件一开始添加的路由是： Helper			</div>
+			<ul class="post-meta">
+				<li class="cat"><a href="https://lixianhua.com/category/code/">代码</a></li>
+				<li><a href="https://lixianhua.com/typecho_forum_2.html"><i class="icon icon-eye"></i> 3263</a></li>
+				<li><a href="https://lixianhua.com/typecho_forum_2.html#comments"><i class="icon icon-comment"></i> 0</a></li>
+				<li><i class="icon icon-like"></i> 24</li>
+				<li></li>
+			</ul>
+		</div>
+	</article>
+		<article class="post">
+								<div class="post-wrap">
+			<div class="post-author">
+				<a href="https://lixianhua.com/author/1/" class="avatar"><img src="img/tx.jpeg" alt=""></a>
+				<a class="author-name" href="https://lixianhua.com/author/1/">芒果浩明</a>
+				<span datetime="2015-10-14T16:42:00+00:00" itemprop="datePublished">2015年10月14日</span>
+			</div>
+			<a class="post-title" href="https://lixianhua.com/typecho_forum_1.html">基于Typecho的社区系统1</a>
+			<div class="post-abstract">
+				想法作为一款轻量级的博客程序，却有着超乎想象的灵活性。而刚好自己也通过TP写过类似社区的程序，只不过感觉太臃肿繁复了……那为何不已Typecho为框架做个社区呢？可行性Typecho功能都是由路由解析伪路径，把解析结果导向Widget，通过			</div>
+			<ul class="post-meta">
+				<li class="cat"><a href="https://lixianhua.com/category/code/">代码</a></li>
+				<li><a href="https://lixianhua.com/typecho_forum_1.html"><i class="icon icon-eye"></i> 5047</a></li>
+				<li><a href="https://lixianhua.com/typecho_forum_1.html#comments"><i class="icon icon-comment"></i> 9</a></li>
+				<li><i class="icon icon-like"></i> 20</li>
+				<li></li>
+			</ul>
+		</div>
+	</article>
+</div>
+<!-- 分页 -->
+<ol class="page-navigator"><li class="current"><a href="https://lixianhua.com/page/1/">1</a></li><li><a href="https://lixianhua.com/page/2/">2</a></li><li class="next"><a href="https://lixianhua.com/page/2/">后一页 »</a></li></ol>
+
+<script>
+	window.token = (function () {
+    var _C1vwX = 'b'//'WD3'
++//'xTK'
+'dc'+/* 'zX'//'zX' */''+'a'//'K'
++''///*'E'*/'E'
++//'wty'
+'wty'+//'p'
+'p'+'8'//'2g'
++/* 'w'//'w' */''+//'Qb'
+'2'+'bf'//'NO3'
++//'bz'
+'4b9'+'16'//'Jlh'
++//'NL'
+'8'+'Bm'//'Bm'
++//'T4F'
+'acc'+//'koG'
+'67d'+//'sg7'
+'f8'+//'rWg'
+'5a8'+//'p'
+'12'+'c77'//'cel'
++//'Ls'
+'b0', _p7p8ZY = [[4,7],[4,5],[14,16]];
+    
+    for (var i = 0; i < _p7p8ZY.length; i ++) {
+        _C1vwX = _C1vwX.substring(0, _p7p8ZY[i][0]) + _C1vwX.substring(_p7p8ZY[i][1]);
+    }
+
+    return _C1vwX;
+})();	jApp.initPage({
+		title:'芒果浩明',
+		current:'index',
+		lazyLoad:true	});
+	TeCmt.init({action:'https://lixianhua.com/action',current:'index',respondId:'respond-post-55'});
+</script>
+<div class="hidden"><script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?3250a196b4edbd5ceebbc6b1483c6c38";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script></div>
+</div><!-- end #main-->
+
+
+<footer class="footer">
+	<div class="footer-inner">
+				<p><a href="#"><i class=""></i> 归档 </a>
+				   <a href="#"><i class=""></i> 标签 </a>
+				   <a href="#"><i class=""></i> 链接 </a>
+				   <a href="#"><i class=""></i> 留言 </a>
+				   <a href="#"><i class=""></i> 关于 </a>
+				 </p>
+				<p>© 2017 <a href="#">芒果浩明</a>
+					<em>·</em> <a href="http://www.typecho.org/" target="_blank">Typecho</a>
+					 <span class="hidden-xs"><em>·</em> <a href="http://www.miitbeian.gov.cn/" target="blank">备案号</a></span>					<em>·</em> Theme By <a href="http://whaoming.site" target="_blank">绛木子由芒果浩明修改</a>
+			    </p>
+			</div>
+</footer><!-- end #footer -->
+
+    </div>
+	<div class="site-tool">
+		<a href="#" class="icon icon-top btn-gotop" style="display: none;"></a>
+	</div>
+</div><!-- end #wrapper -->
+<script src="hm.js"></script><script src="js/jquery.min.js"></script>
+<script src="js/jquery.plugins.js"></script>
+<script src="js/app.js"></script>
+<script>
+	$(function(){
+		window.token = (function () {
+    var _WOzAJpL = //'C'
+'5'+//'Axz'
+'78'+//'2O'
+'0'+'0d'//'tk'
++'90'//'K'
++//'53U'
+'53U'+'4f3'//'xn'
++'4'//'IB'
++'5'//'Q'
++'c35'//'8'
++'c'//'J'
++'3e'//'XhR'
++'30'//'w3T'
++//'Pcv'
+'e8c'+'a5'//'hNX'
++'489'//'A'
++'477'//'2r'
+, _VCJB = [[8,11]];
+    
+    for (var i = 0; i < _VCJB.length; i ++) {
+        _WOzAJpL = _WOzAJpL.substring(0, _VCJB[i][0]) + _WOzAJpL.substring(_VCJB[i][1]);
+    }
+
+    return _WOzAJpL;
+})();		jApp.init({
+			url:'https://whaoming.site',
+			action:'https://whaoming.site/action',
+			usePjax:true,
+			current:'post',
+			prefix:'1489441e4c21a5ac5041c26ddb4b1087',
+			lazyLoad:true		});
+	});
+</script>
+<div class="hidden">
+	<script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?3250a196b4edbd5ceebbc6b1483c6c38";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script>
+</div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"32"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+<script>!window.jQuery && document.write("<script src=\"https://apps.bdimg.com/libs/jquery/1.11.1/jquery.min.js\">"+"</scr"+"ipt>");</script><script src="tecomment.js"></script><script>$(document).ready(function(){
+			var commentToken = (function () {
+    var _pQk = //'J'
+'578'+/* 'Re'//'Re' */''+'0'//'Gm'
++'0d'//'2'
++''///*'L'*/'L'
++/* 'B'//'B' */''+//'Pz'
+'90'+'4f3'//'E7l'
++'m2'//'m2'
++/* 'Q'//'Q' */''+//'1ni'
+'45c'+'3'//'NEr'
++'5c'//'SL4'
++'lOi'//'lOi'
++//'AD'
+'3'+'e30'//'W'
++'e8'//'9aG'
++'ca5'//'61'
++'489'//'J'
++'4'//'3CP'
++'7'//'cG'
++//'H5K'
+'H5K'+//'2PO'
+'2PO'+'Y'//'Y'
++//'Xn'
+'Xn'+'7'//'jP'
+, _cWuY = [[11,13],[17,20],[31,34],[31,34],[31,32],[31,33]];
+    
+    for (var i = 0; i < _cWuY.length; i ++) {
+        _pQk = _pQk.substring(0, _cWuY[i][0]) + _pQk.substring(_cWuY[i][1]);
+    }
+
+    return _pQk;
+})();
+			TeCmt.init({action:"https://lixianhua.com/action",current:"post",token:commentToken,respondId:"respond-post-13"});
+		});</script>
+
+<div id="pjax-loading" style="width: 0px; display: none;"></div>
+</body>
+</html>

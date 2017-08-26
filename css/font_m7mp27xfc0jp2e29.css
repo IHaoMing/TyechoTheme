@@ -1,0 +1,14 @@
+/* Code tidied up by ScrapBook */
+@font-face {
+  font-family: "te-font";
+  src: url("font_m7mp27xfc0jp2e29.eot") format("embedded-opentype"), url("font_m7mp27xfc0jp2e29.woff") format("woff"), url("font_m7mp27xfc0jp2e29.ttf") format("truetype"), url("font_m7mp27xfc0jp2e29.svg") format("svg");
+}
+.te-font { font-family: "te-font" !important; font-size: 16px; font-style: normal; }
+.te-icon-code::before { content: ""; }
+.te-icon-bold::before { content: ""; }
+.te-icon-italic::before { content: ""; }
+.te-icon-quote::before { content: ""; }
+.te-icon-deline::before { content: ""; }
+.te-icon-underline::before { content: ""; }
+.te-icon-emoji::before { content: ""; }
+.te-icon-image::before { content: ""; }

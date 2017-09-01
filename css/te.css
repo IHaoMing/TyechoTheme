@@ -1,0 +1,10 @@
+  /* Code tidied up by ScrapBook */
+      #te-cmt-tool { display: none; list-style: outside none none; padding: 0px; margin: 10px 0px; }
+      #te-cmt-cmd { padding: 0px; margin: 0px; overflow: hidden; list-style: outside none none; border: 1px solid rgb(150, 150, 150); border-radius: 3px; }
+      #te-cmt-cmd li { padding: 0px; margin: 0px; float: left; border: medium none; }
+      #te-cmt-cmd li a { height: 32px; line-height: 32px; padding: 0px 10px; display: block; }
+      .te-cmt-smilies { display: none; padding: 8px 5px 5px; margin-top: -3px; border-width: medium 1px 1px; border-style: none solid solid; border-color: currentcolor rgb(150, 150, 150) rgb(150, 150, 150); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-radius: 0px 0px 3px 3px; }
+      .te-cmt-smilies span { cursor: pointer; }
+      .te-cmt-smilies span img { vertical-align: middle; }
+      .te-cmt-ban { height: 20px; line-height: 20px; }
+      .te-cmt-ban input[type="checkbox"] { margin: 0px; padding: 0px; vertical-align: middle; }
